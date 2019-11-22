@@ -31,7 +31,7 @@ def DisplayAll():
 
 def DisplayQuery():
     print('Students With Marks Less Than 75:')
-    val = cur.execute('SELECT * FROM STUDENT1 WHERE marks<75')
+    val = cur.execute('SELECT * FROM STUDENT0 WHERE marks<75')
     for row in val:
         print('Student ID:', row[0])
         print('Student Name:', row[1])
